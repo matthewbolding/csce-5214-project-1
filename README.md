@@ -10,8 +10,7 @@ To get started, you must have the program `uv` installed. After cloning this rep
 
 You must also download the data and place it in the correct local folder. Run these commands.
 
-bash
-```
+```bash
 $ curl -L -o archive.zip https://www.kaggle.com/api/v1/datasets/download/teamincribo/credit-card-fraud
 $ mkdir data
 $ unzip -d data archive.zip
